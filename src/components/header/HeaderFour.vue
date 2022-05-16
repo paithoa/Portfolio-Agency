@@ -77,11 +77,11 @@
             >{{ item.title }}</v-btn
           >
         </scrollactive>
-        <div class="purchase-btn">
+        <!-- <div class="purchase-btn">
           <a target="_blank" href="https://themeforest.net/checkout/from_item/31671489?license=regular">
             Purchase Now
           </a>
-        </div>
+        </div> -->
       </v-toolbar-items>
       <!-- End header menu item -->
     </v-app-bar>

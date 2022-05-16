@@ -24,9 +24,9 @@
           >
             <div class="portfolio_style--3">
               <div class="thumb">
-                <router-link to="/portfolio-details"
+                <a :href="`${item.routerLink}`" target="_blank"
                   ><img :src="item.src" alt="personal portfolio"
-                /></router-link>
+                /></a>
                 <div class="port-hover-action">
                   <div class="content">
                     <h3>
@@ -56,26 +56,7 @@
             id: 1,
             name: "All",
           },
-          {
-            id: 2,
-            name: "Fashion",
-          },
-          {
-            id: 3,
-            name: "Minimal",
-          },
-          {
-            id: 4,
-            name: "Photography",
-          },
-          {
-            id: 5,
-            name: "Black",
-          },
-          {
-            id: 6,
-            name: "Model",
-          },
+        
         ],
         tabContent: [
           {
@@ -83,27 +64,18 @@
             content: [
               {
                 src: require("../../assets/img/project/portfolio-3/protfolio-1.jpg"),
-                title: `Mr. Joharuin Joly`,
+                title: `4D Medical`,
+                routerLink:'https://4dmedical.com/'
               },
               {
                 src: require("../../assets/img/project/portfolio-3/protfolio-2.jpg"),
-                title: `Mr. Joharuin Joly`,
+                title: `The Good Guys`,
+                 routerLink:'https://www.thegoodguys.com.au/'
               },
               {
                 src: require("../../assets/img/project/portfolio-3/protfolio-3.jpg"),
-                title: `Mr. Joharuin Joly`,
-              },
-              {
-                src: require("../../assets/img/project/portfolio-3/protfolio-4.jpg"),
-                title: `Mr. Joharuin Joly`,
-              },
-              {
-                src: require("../../assets/img/project/portfolio-3/protfolio-5.jpg"),
-                title: `Mr. Joharuin Joly`,
-              },
-              {
-                src: require("../../assets/img/project/portfolio-3/protfolio-6.jpg"),
-                title: `Mr. Joharuin Joly`,
+                title: `RMIT`,
+                 routerLink:'https://www.rmit.edu.au/'
               },
             ],
           },

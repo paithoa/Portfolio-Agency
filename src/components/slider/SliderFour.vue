@@ -32,10 +32,9 @@
         sliderContent: [
           {
             imgClass: "bg_image--8",
-            title: "Rainfo Creative Agency",
+            title: "Next Horizon Digital Agency",
             subTitle: "Welcome",
-            desc: `There are many variations of passages of Lorem Ipsum available 
-                  but the majority have suffered alteration.`,
+            desc: `Web design is more than just looking good! We create high engaging custom websites that make your phone ring.`,
           },
         ],
       };

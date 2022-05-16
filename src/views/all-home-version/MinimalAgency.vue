@@ -20,8 +20,7 @@
       <v-row class="row">
         <v-col lg="12">
           <div class="section-title-2 text-center mb--60 mb-sm-30">
-            <h2>New Project</h2>
-            <p>My work will prove my quality</p>
+            <h2>Our client</h2>
           </div>
         </v-col>
       </v-row>

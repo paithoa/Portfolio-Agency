@@ -11,25 +11,20 @@
         >
           <div class="content text-left">
             <h2>
-              Refreshingly Unique <br />
-              Company About.
+              Our Services
             </h2>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration of passages all are in
-              some form.
+              Website Design & Development
             </p>
             <p>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration of passages all are in
-              some form.
+          Web Conversion & CRO Strategies
             </p>
             <div
               class="story-btn  wow newFadeInUp"
               data-wow-duration="1s"
               data-wow-delay="1000ms"
             >
-              <router-link to="/contact">Get Connected</router-link>
+             
             </div>
           </div>
         </div>
@@ -40,7 +35,25 @@
     <div class="rn-skill-area home-one-skill d-flex bg_color--3" id="skill">
       <div class="rn-skill-right w-50 d-flex align-items-center">
         <div class="text-left rn-skill rn-plr section-ptb-xl">
-          <Skills />
+            <div class="content text-left">
+            <h2>
+           
+Work only
+with specialists
+            </h2>
+            <p>
+              Advanced Custom Web Solutions
+            </p>
+            <p>
+Web API Integration Solutions            </p>
+            <div
+              class="story-btn  wow newFadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1000ms"
+            >
+            
+            </div>
+          </div>
         </div>
       </div>
       <div
@@ -53,11 +66,7 @@
 </template>
 
 <script>
-  import Skills from "../../components/skill/Skills";
   export default {
-    components: {
-      Skills,
-    },
     data() {
       return {
         aboutSrc: require("../../assets/img/portfolio/about-image.jpg"),
