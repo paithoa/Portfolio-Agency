@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio-details-page">
     <HeaderFive>
-      <img slot="logo" src="../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../assets/img/logo/nextHorizon.png" />
     </HeaderFive>
 
     <!-- Start Bradcaump area -->
@@ -96,21 +96,21 @@
 </template>
 
 <script>
-  import HeaderFive from "../components/header/HeaderFive";
-  import Footer from "../components/footer/Footer";
-  export default {
-    components: {
-      HeaderFive,
-      Footer,
-    },
-    data() {
-      return {};
-    },
-  };
+import HeaderFive from "../components/header/HeaderFive";
+import Footer from "../components/footer/Footer";
+export default {
+  components: {
+    HeaderFive,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .portfolio-details-page .-rn-footer {
-    background: #f9f9f9;
-  }
+.portfolio-details-page .-rn-footer {
+  background: #f9f9f9;
+}
 </style>

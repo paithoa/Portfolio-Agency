@@ -2,7 +2,7 @@
   <div>
     <!-- Start Header Area -->
     <HeaderFive>
-      <img slot="logo" src="../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../assets/img/logo/nextHorizon.png" />
     </HeaderFive>
     <!-- End Header Area -->
 
@@ -32,17 +32,17 @@
 </template>
 
 <script>
-  import HeaderFive from "../components/header/HeaderFive";
-  import FooterTwo from "../components/footer/FooterTwo";
-  export default {
-    components: {
-      HeaderFive,
-      FooterTwo,
-    },
-    data() {
-      return {};
-    },
-  };
+import HeaderFive from "../components/header/HeaderFive";
+import FooterTwo from "../components/footer/FooterTwo";
+export default {
+  components: {
+    HeaderFive,
+    FooterTwo,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

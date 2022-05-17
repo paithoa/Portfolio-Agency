@@ -1,7 +1,7 @@
 <template>
   <div class="parallax-home-page">
     <HeaderMultiPageRoute class="parallax-header">
-      <img slot="logo" src="../../assets/img/logo/logo-circle-white.png" />
+      <img slot="logo" src="../../assets/img/logo/nextHorizon.png" />
     </HeaderMultiPageRoute>
 
     <!-- Start Hero Area -->
@@ -105,30 +105,30 @@
 </template>
 
 <script>
-  import HeaderMultiPageRoute from "../../components/header/HeaderMultiPageRoute";
-  import Footer from "../../components/footer/Footer";
-  export default {
-    components: {
-      HeaderMultiPageRoute,
-      Footer,
-    },
-    data() {
-      return {
-        src1: require("../../assets/img/bg/bg-image-6.jpg"),
-        src2: require("../../assets/img/bg/bg-image-4.jpg"),
-        src3: require("../../assets/img/bg/bg-image-5.jpg"),
-        src4: require("../../assets/img/bg/bg-image-7.jpg"),
-      };
-    },
-  };
+import HeaderMultiPageRoute from "../../components/header/HeaderMultiPageRoute";
+import Footer from "../../components/footer/Footer";
+export default {
+  components: {
+    HeaderMultiPageRoute,
+    Footer,
+  },
+  data() {
+    return {
+      src1: require("../../assets/img/bg/bg-image-6.jpg"),
+      src2: require("../../assets/img/bg/bg-image-4.jpg"),
+      src3: require("../../assets/img/bg/bg-image-5.jpg"),
+      src4: require("../../assets/img/bg/bg-image-7.jpg"),
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .parallax-home-page .logo {
-    img {
-      @media only screen and (max-width: 575px) {
-        max-width: 80%;
-      }
+.parallax-home-page .logo {
+  img {
+    @media only screen and (max-width: 575px) {
+      max-width: 80%;
     }
   }
+}
 </style>

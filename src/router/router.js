@@ -12,17 +12,25 @@ const routes = [
     path: "/",
     component: MinimalAgenc,
     meta: {
-      title: "Rainfo || Minimal Agency Portfolio",
+      title: "Next Horizon",
     },
   },
   {
-    path: "/main-demo",
-    name: "MainDemo",
+    path: "/next-horizon",
+    name: "NextHorizon",
     meta: {
-      title: "Rainfo || Main Demo Portfolio",
+      title: "Next Horizon",
     },
-    component: () => import("../views/all-home-version/MainDemo.vue"),
+    component: () => import("../views/all-home-version/MinimalAgency.vue"),
   },
+  // {
+  //   path: "/main-demo",
+  //   name: "MainDemo",
+  //   meta: {
+  //     title: "Rainfo || Main Demo Portfolio",
+  //   },
+  //   component: () => import("../views/all-home-version/MainDemo.vue"),
+  // },
   {
     path: "/freelancer",
     name: "Freelancer",

@@ -4,12 +4,12 @@
     <div class="rf-sidebar sidebar--content">
       <div class="sidebar-wrapper">
         <div class="logo">
-          <router-link to="/"> 
+          <router-link to="/">
             <img
-                src="../../assets/img/logo/logo-circle.png"
-                alt="personal portfolio"
-              />
-            </router-link>
+              src="../../assets/img/logo/nextHorizon.png"
+              alt="personal portfolio"
+            />
+          </router-link>
         </div>
         <div class="sidebar-social-icon">
           <ul class="social-icon hover-icon" :class="{ show: active }">
@@ -41,53 +41,53 @@
 </template>
 
 <script>
-  import PortfolioFive from "../../components/portfolio/PortfolioFive";
-  import Footer from "../../components/footer/Footer";
-  import feather from "feather-icons";
-  export default {
-    components: {
-      PortfolioFive,
-      Footer,
+import PortfolioFive from "../../components/portfolio/PortfolioFive";
+import Footer from "../../components/footer/Footer";
+import feather from "feather-icons";
+export default {
+  components: {
+    PortfolioFive,
+    Footer,
+  },
+  data() {
+    return {
+      active: false,
+      icon: "more-horizontal",
+      socialIconList: [
+        {
+          name: "FB",
+          dataHover: "FB",
+          url: "https://www.facebook.com/",
+        },
+        {
+          name: "DB",
+          dataHover: "DB",
+          url: "https://dribbble.com/",
+        },
+        {
+          name: "Be",
+          dataHover: "Be",
+          url: "https://www.behance.net/",
+        },
+        {
+          name: "Tw",
+          dataHover: "Tw",
+          url: "https://twitter.com/",
+        },
+        {
+          name: "Co",
+          dataHover: "Co",
+          url: "https://codepen.io/",
+        },
+      ],
+    };
+  },
+  methods: {
+    iconSvg(icon) {
+      return feather.icons[icon].toSvg();
     },
-    data() {
-      return {
-        active: false,
-        icon: "more-horizontal",
-        socialIconList: [
-          {
-            name: "FB",
-            dataHover: "FB",
-            url: "https://www.facebook.com/",
-          },
-          {
-            name: "DB",
-            dataHover: "DB",
-            url: "https://dribbble.com/",
-          },
-          {
-            name: "Be",
-            dataHover: "Be",
-            url: "https://www.behance.net/",
-          },
-          {
-            name: "Tw",
-            dataHover: "Tw",
-            url: "https://twitter.com/",
-          },
-          {
-            name: "Co",
-            dataHover: "Co",
-            url: "https://codepen.io/",
-          },
-        ],
-      };
-    },
-    methods: {
-      iconSvg(icon) {
-        return feather.icons[icon].toSvg();
-      },
-    },
-  };
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

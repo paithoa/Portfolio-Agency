@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio-page">
     <HeaderFive>
-      <img slot="logo" src="../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../assets/img/logo/nextHorizon.png" />
     </HeaderFive>
     <!-- End Header -->
 
@@ -12,9 +12,7 @@
           <v-row>
             <v-col cols="12">
               <div class="text-center bradcaump_inner">
-                <h2 class="bradcaump-title">
-                  Portfolio
-                </h2>
+                <h2 class="bradcaump-title">Portfolio</h2>
                 <p>Fresh From The Press Discription</p>
               </div>
             </v-col>
@@ -46,29 +44,29 @@
 </template>
 
 <script>
-  import HeaderFive from "../components/header/HeaderFive";
-  import PortfolioFive from "../components/portfolio/PortfolioFive";
-  import Footer from "../components/footer/Footer";
-  export default {
-    components: {
-      HeaderFive,
-      PortfolioFive,
-      Footer,
-    },
-    data() {
-      return {};
-    },
-  };
+import HeaderFive from "../components/header/HeaderFive";
+import PortfolioFive from "../components/portfolio/PortfolioFive";
+import Footer from "../components/footer/Footer";
+export default {
+  components: {
+    HeaderFive,
+    PortfolioFive,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss">
-  .rn-portfolio-area.section-ptb-100
-    .masonry-tabs
-    .v-slide-group__wrapper
-    .v-slide-group__content {
-    justify-content: center !important;
-  }
-  .portfolio-page .-rn-footer {
-    background: #f9f9f9;
-  }
+.rn-portfolio-area.section-ptb-100
+  .masonry-tabs
+  .v-slide-group__wrapper
+  .v-slide-group__content {
+  justify-content: center !important;
+}
+.portfolio-page .-rn-footer {
+  background: #f9f9f9;
+}
 </style>
