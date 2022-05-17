@@ -1,7 +1,11 @@
 <template>
   <div class="box-layout">
     <HeaderFour>
-      <img slot="logo" src="../../assets/img/logo/portfolio.png" />
+      <img
+        class="w-1/2 img-logo"
+        slot="logo"
+        src="../../assets/img/logo/nextHorizon.png"
+      />
     </HeaderFour>
 
     <!-- Start Hero Area -->
@@ -32,45 +36,48 @@
 </template>
 
 <script>
-  import HeaderFour from "../../components/header/HeaderFour";
-  import SliderFour from "../../components/slider/SliderFour";
-  import About from "../../components/about/About";
-  import PortfolioSix from "../../components/portfolio/PortfolioSix";
-  import Footer from "../../components/footer/Footer";
-  export default {
-    components: {
-      HeaderFour,
-      SliderFour,
-      About,
-      PortfolioSix,
-      Footer,
-    },
-    data() {
-      return {
-        aboutSrc: require("../../assets/img/portfolio/about-image.jpg"),
-      };
-    },
-  };
+import HeaderFour from "../../components/header/HeaderFour";
+import SliderFour from "../../components/slider/SliderFour";
+import About from "../../components/about/About";
+import PortfolioSix from "../../components/portfolio/PortfolioSix";
+import Footer from "../../components/footer/Footer";
+export default {
+  components: {
+    HeaderFour,
+    SliderFour,
+    About,
+    PortfolioSix,
+    Footer,
+  },
+  data() {
+    return {
+      aboutSrc: require("../../assets/img/portfolio/about-image.jpg"),
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .box-layout {
-    .-rn-footer {
-      background: #f9f9f9;
-    }
-    header.header.header-flat {
-      padding: 0;
-    }
+.box-layout {
+  .-rn-footer {
+    background: #f9f9f9;
   }
+  header.header.header-flat {
+    padding: 0;
+  }
+}
+.img-logo {
+  @apply w-1/5 sm:w-2/5 lg:w-4/5  2xl:w-3/5;
+}
 </style>
 <style lang="scss">
-  .box-layout {
-    header.header.header-flat,
-    .v-toolbar__content {
-      padding: 0;
-    }
-    .mt--100.mt-sm-10 {
-      margin-top: 50px;
-    }
+.box-layout {
+  header.header.header-flat,
+  .v-toolbar__content {
+    padding: 0;
   }
+  .mt--100.mt-sm-10 {
+    margin-top: 50px;
+  }
+}
 </style>
