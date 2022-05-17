@@ -1,7 +1,7 @@
 <template>
   <div class="service-details-page">
     <HeaderFive>
-      <img slot="logo" src="../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../assets/img/logo/nextHorizon.png" />
     </HeaderFive>
 
     <!-- Start Bradcaump area -->
@@ -11,9 +11,7 @@
           <v-row>
             <v-col cols="12">
               <div class="text-center bradcaump_inner">
-                <h2 class="bradcaump-title">
-                  WEBSITE DEVELOPMENT
-                </h2>
+                <h2 class="bradcaump-title">WEBSITE DEVELOPMENT</h2>
                 <p>Fresh From The Press Discription</p>
               </div>
             </v-col>
@@ -115,28 +113,28 @@
 </template>
 
 <script>
-  import HeaderFive from "../components/header/HeaderFive";
-  import Footer from "../components/footer/Footer";
-  export default {
-    components: {
-      HeaderFive,
-      Footer,
-    },
-    data() {
-      return {};
-    },
-  };
+import HeaderFive from "../components/header/HeaderFive";
+import Footer from "../components/footer/Footer";
+export default {
+  components: {
+    HeaderFive,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .service-details-page {
-    .-rn-footer {
-      background: #f9f9f9;
-    }
-    .rp-port-details-inner {
-      p:last-child {
-        margin-bottom: 0;
-      }
+.service-details-page {
+  .-rn-footer {
+    background: #f9f9f9;
+  }
+  .rp-port-details-inner {
+    p:last-child {
+      margin-bottom: 0;
     }
   }
+}
 </style>

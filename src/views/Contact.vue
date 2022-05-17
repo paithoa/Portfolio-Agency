@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderFive>
-      <img slot="logo" src="../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../assets/img/logo/nextHorizon.png" />
     </HeaderFive>
 
     <!-- Start Bradcaump area -->
@@ -29,7 +29,7 @@
     <!-- End Bradcaump area -->
 
     <!-- Start Contact Area -->
-    <div class="rf-contact-area ">
+    <div class="rf-contact-area">
       <div class="contact-wrapper">
         <v-row align="center">
           <v-col lg="5" md="6" sm="12" cols="12">
@@ -168,85 +168,85 @@
 </template>
 
 <script>
-  import HeaderFive from "../components/header/HeaderFive";
-  import Footer from "../components/footer/Footer";
-  import feather from "feather-icons";
-  import { ValidationObserver } from "vee-validate";
-  import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
-  export default {
-    components: {
-      HeaderFive,
-      Footer,
-      ValidationObserver,
-      ValidationProvider,
-    },
-    data() {
-      return {
-        formData: {
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
+import HeaderFive from "../components/header/HeaderFive";
+import Footer from "../components/footer/Footer";
+import feather from "feather-icons";
+import { ValidationObserver } from "vee-validate";
+import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
+export default {
+  components: {
+    HeaderFive,
+    Footer,
+    ValidationObserver,
+    ValidationProvider,
+  },
+  data() {
+    return {
+      formData: {
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      },
+      addressContent: [
+        {
+          icon: "map-pin",
+          desc1: "500 South Main Street",
+          desc2: " Bishop, CA 93514 93514",
+          isAddress: true,
         },
-        addressContent: [
-          {
-            icon: "map-pin",
-            desc1: "500 South Main Street",
-            desc2: " Bishop, CA 93514 93514",
-            isAddress: true,
-          },
-          {
-            icon: "smartphone",
-            num1: "+012 3344 556677",
-            num2: "+012 3344 556677",
-            to: "tel:0123344556677",
-            isNumber: true,
-          },
-          {
-            icon: "mail",
-            mail: "example@gmail.com",
-            to: "mailto:example@domain.com",
-            isMail: true,
-          },
-        ],
-      };
-    },
+        {
+          icon: "smartphone",
+          num1: "+012 3344 556677",
+          num2: "+012 3344 556677",
+          to: "tel:0123344556677",
+          isNumber: true,
+        },
+        {
+          icon: "mail",
+          mail: "example@gmail.com",
+          to: "mailto:example@domain.com",
+          isMail: true,
+        },
+      ],
+    };
+  },
 
-    methods: {
-      iconSvg(icon) {
-        return feather.icons[icon].toSvg();
-      },
-      onSubmit() {
-        console.log(this.formData);
-      },
+  methods: {
+    iconSvg(icon) {
+      return feather.icons[icon].toSvg();
     },
-  };
+    onSubmit() {
+      console.log(this.formData);
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .inpur-error,
-  .inpur-success {
-    display: block;
-    margin-top: 5px;
-    font-size: 14px;
-  }
-  .inpur-error {
-    color: #f10;
-  }
-  .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 800px;
-    width: 100%;
+.inpur-error,
+.inpur-success {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.inpur-error {
+  color: #f10;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 800px;
+  width: 100%;
 
-    iframe {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .mapouter {
-    position: relative;
+  iframe {
     width: 100%;
     height: 100%;
   }
+}
+.mapouter {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 </style>

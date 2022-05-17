@@ -1,7 +1,7 @@
 <template>
   <div class="blog-details-page">
     <HeaderFive>
-      <img slot="logo" src="../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../assets/img/logo/nextHorizon.png" />
     </HeaderFive>
 
     <!-- Start Bradcaump area -->
@@ -11,9 +11,7 @@
           <v-row>
             <v-col cols="12">
               <div class="text-center bradcaump_inner">
-                <h2 class="bradcaump-title">
-                  WEBSITE DEVELOPMENT
-                </h2>
+                <h2 class="bradcaump-title">WEBSITE DEVELOPMENT</h2>
                 <ul class="blog-meta">
                   <li>{{ blogMeta.date }}</li>
                   <li :class="blogMeta.className">-</li>
@@ -44,11 +42,11 @@
                 <p>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
-                  form, by injected humour, looked up one of the more obscure Latin words, consectetur,
-                  from a Lorem Ipsum passage, and going through the cites of the
-                  word in classical literature, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum.
+                  form, by injected humour, looked up one of the more obscure
+                  Latin words, consectetur, from a Lorem Ipsum passage, and
+                  going through the cites of the word in classical literature,
+                  or randomised words which don't look even slightly believable.
+                  If you are going to use a passage of Lorem Ipsum.
                 </p>
               </div>
               <div class="content">
@@ -64,18 +62,19 @@
                 <blockquote>
                   <p>
                     Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                    amet,looked up one of the more obscure Latin words, consectetur,
-                  from a Lorem Ipsum passage looked up one of the more obscure Latin words
+                    amet,looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage looked up one of the
+                    more obscure Latin words
                   </p>
                 </blockquote>
-                  <p>
+                <p>
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
-                  form, by injected humour, looked up one of the more obscure Latin words, consectetur,
-                  from a Lorem Ipsum passage, and going through the cites of the
-                  word in classical literature, or randomised words which don't look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum.
+                  form, by injected humour, looked up one of the more obscure
+                  Latin words, consectetur, from a Lorem Ipsum passage, and
+                  going through the cites of the word in classical literature,
+                  or randomised words which don't look even slightly believable.
+                  If you are going to use a passage of Lorem Ipsum.
                 </p>
                 <p>
                   Discovered the undoubtable source. Lorem Ipsum comes from
@@ -95,16 +94,16 @@
                     <li>
                       <img :src="blogListImage.img2" alt="personal portfolio" />
                     </li>
-                      <li>
+                    <li>
                       <img :src="blogListImage.img1" alt="personal portfolio" />
                     </li>
-                      <li>
+                    <li>
                       <img :src="blogListImage.img2" alt="personal portfolio" />
                     </li>
                   </ul>
                 </div>
 
-                  <p>
+                <p>
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
@@ -120,11 +119,11 @@
                   a Latin professor at Hampden-Sydney College in Virginia,
                   looked up one of the more obscure Latin words, consectetur,
                   from a Lorem Ipsum passage, and going through the cites of the
-                  word in classical literature,The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here content.
+                  word in classical literature,The point of using Lorem Ipsum is
+                  that it has a more-or-less normal distribution of letters, as
+                  opposed to using 'Content here content.
                 </p>
-                  <p>
+                <p>
                   It is a long established fact that a reader will be distracted
                   by the readable content of a page when looking at its layout.
                   The point of using Lorem Ipsum is that it has a more-or-less
@@ -144,33 +143,33 @@
 </template>
 
 <script>
-  import HeaderFive from "../components/header/HeaderFive";
-  import Footer from "../components/footer/Footer";
-  export default {
-    components: {
-      HeaderFive,
-      Footer,
-    },
-    data() {
-      return {
-        blogMeta: {
-          date: "April 1, 2021",
-          className: "separator",
-          author: "RainbowIt",
-          authorUrl: "https://themeforest.net/user/rainbow-themes/portfolio",
-          comments: "07 Comments",
-        },
-        blogListImage: {
-          img1: require("../assets/img/news/md-img-1.jpg"),
-          img2: require("../assets/img/news/md-img-2.jpg"),
-        },
-      };
-    },
-  };
+import HeaderFive from "../components/header/HeaderFive";
+import Footer from "../components/footer/Footer";
+export default {
+  components: {
+    HeaderFive,
+    Footer,
+  },
+  data() {
+    return {
+      blogMeta: {
+        date: "April 1, 2021",
+        className: "separator",
+        author: "RainbowIt",
+        authorUrl: "https://themeforest.net/user/rainbow-themes/portfolio",
+        comments: "07 Comments",
+      },
+      blogListImage: {
+        img1: require("../assets/img/news/md-img-1.jpg"),
+        img2: require("../assets/img/news/md-img-2.jpg"),
+      },
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .blog-details-page .-rn-footer {
-    background: #f9f9f9;
-  }
+.blog-details-page .-rn-footer {
+  background: #f9f9f9;
+}
 </style>

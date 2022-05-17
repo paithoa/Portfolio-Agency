@@ -1,7 +1,7 @@
 <template>
   <div>
     <HeaderThree>
-      <img slot="logo" src="../../assets/img/logo/portfolio.png" />
+      <img slot="logo" src="../../assets/img/logo/nextHorizon.png" />
     </HeaderThree>
     <!-- Start Hero Area -->
     <div class="slider-area slide--5 bg_color--3" id="home">
@@ -49,24 +49,24 @@
 </template>
 
 <script>
-  import HeaderThree from "../../components/header/HeaderThree";
-  import PortfolioThree from "../../components/portfolio/PortfolioThree";
-  import Awards from "../../components/awards/Awards";
-  import News from "../../components/news/News";
-  import Footer from "../../components/footer/Footer";
+import HeaderThree from "../../components/header/HeaderThree";
+import PortfolioThree from "../../components/portfolio/PortfolioThree";
+import Awards from "../../components/awards/Awards";
+import News from "../../components/news/News";
+import Footer from "../../components/footer/Footer";
 
-  export default {
-    components: {
-      HeaderThree,
-      PortfolioThree,
-      Awards,
-      News,
-      Footer,
-    },
-    data() {
-      return {};
-    },
-  };
+export default {
+  components: {
+    HeaderThree,
+    PortfolioThree,
+    Awards,
+    News,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

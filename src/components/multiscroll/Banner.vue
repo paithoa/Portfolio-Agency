@@ -2,7 +2,7 @@
   <div class="ms-container-wrapper">
     <div class="ms-left">
       <div
-        class="ms-section bg_image "
+        class="ms-section bg_image"
         :style="{ backgroundImage: 'url(' + src + ')' }"
       ></div>
     </div>
@@ -23,19 +23,19 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        src: require("../../assets/img/slider/slider-6.jpg"),
-        heroContent: {
-          name: "Hello",
-          title: "I’m Rainfo",
-          desc: `There are many variations of passages of Lorem Ipsum available,
+export default {
+  data() {
+    return {
+      src: require("../../assets/img/slider/slider-6.jpg"),
+      heroContent: {
+        name: "Hello",
+        title: "I’m NextHorizon",
+        desc: `There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form.`,
-        },
-      };
-    },
-  };
+      },
+    };
+  },
+};
 </script>
 
 <style lang="scss" scoped></style>

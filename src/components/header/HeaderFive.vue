@@ -70,7 +70,10 @@
         >
 
         <div class="purchase-btn">
-          <a target="_blank" href="https://themeforest.net/checkout/from_item/31671489?license=regular">
+          <a
+            target="_blank"
+            href="https://themeforest.net/checkout/from_item/31671489?license=regular"
+          >
             Purchase Now
           </a>
         </div>
@@ -82,31 +85,31 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      drawer: false,
-      items: [
-        { title: "Home", to: "/main-demo" },
-        { title: "About", to: "/about-us" },
-        { title: "Service", to: "/service" },
-        { title: "Portfolio", to: "/portfolio" },
-        { title: "Awards", to: "/awards" },
-        { title: "Blog", to: "/blog" },
-        { title: "Contact", to: "/contact" },
-      ],
-      icon: "menu",
-    }),
-    methods: {},
-  };
+export default {
+  data: () => ({
+    drawer: false,
+    items: [
+      { title: "Home", to: "/next-horizon" },
+      { title: "About", to: "/about-us" },
+      { title: "Service", to: "/service" },
+      { title: "Portfolio", to: "/portfolio" },
+      { title: "Awards", to: "/awards" },
+      { title: "Blog", to: "/blog" },
+      { title: "Contact", to: "/contact" },
+    ],
+    icon: "menu",
+  }),
+  methods: {},
+};
 </script>
 
 <style lang="scss">
-  .multi-page-route-appbar {
-    &.v-toolbar:not(.tab-toolbar) .v-btn {
-      &.v-btn--active {
-        color: #000000;
-        font-weight: 500;
-      }
+.multi-page-route-appbar {
+  &.v-toolbar:not(.tab-toolbar) .v-btn {
+    &.v-btn--active {
+      color: #000000;
+      font-weight: 500;
     }
   }
+}
 </style>

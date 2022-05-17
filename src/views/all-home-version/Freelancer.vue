@@ -1,7 +1,7 @@
 <template>
   <div class="freelancer-page">
     <HeaderTwo>
-      <img slot="logo" src="../../assets/img/logo/rainfo-circle-color.png" />
+      <img slot="logo" src="../../assets/img/logo/nextHorizon.png" />
     </HeaderTwo>
     <SliderOne />
     <!-- Start Portfolio Area -->
@@ -27,33 +27,33 @@
 </template>
 
 <script>
-  import HeaderTwo from "../../components/header/HeaderTwo";
-  import SliderOne from "../../components/slider/SliderOne";
-  import Portfolio from "../../components/portfolio/Portfolio";
-  import Awards from "../../components/awards/Awards";
-  import News from "../../components/news/News";
-  import Footer from "../../components/footer/Footer";
-  export default {
-    components: {
-      HeaderTwo,
-      SliderOne,
-      Portfolio,
-      Awards,
-      News,
-      Footer,
-    },
-    data() {
-      return {};
-    },
-  };
+import HeaderTwo from "../../components/header/HeaderTwo";
+import SliderOne from "../../components/slider/SliderOne";
+import Portfolio from "../../components/portfolio/Portfolio";
+import Awards from "../../components/awards/Awards";
+import News from "../../components/news/News";
+import Footer from "../../components/footer/Footer";
+export default {
+  components: {
+    HeaderTwo,
+    SliderOne,
+    Portfolio,
+    Awards,
+    News,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+};
 </script>
 
 <style lang="scss" scoped>
-  .freelancer-page .logo {
-    img {
-      @media only screen and (max-width: 575px) {
-        max-width: 80%;
-      }
+.freelancer-page .logo {
+  img {
+    @media only screen and (max-width: 575px) {
+      max-width: 80%;
     }
   }
+}
 </style>
