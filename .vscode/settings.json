@@ -1,0 +1,43 @@
+{
+  "git.ignoreLimitWarning": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": false,
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "html.format.enable": true,
+  "files.associations": { "*.scss": "postcss" },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/*.css": {
+      "when": "$(basename).scss"
+    },
+    "**/node_modules": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
