@@ -2,7 +2,10 @@
   "name": "nexthorizon",
   "version": "1.0.0",
   "private": true,
-  "author": {"name": "Next Horizon Ltd Pty", "url": "http://www.nexthorizonaustralia.com"},
+  "author": {
+    "name": "Next Horizon Ltd Pty",
+    "url": "http://www.nexthorizonaustralia.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
