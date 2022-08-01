@@ -17,15 +17,7 @@
         <v-container fluid>
           <v-row>
             <!-- Start Single Wedget -->
-      
-            <v-col lg="3" md="3" sm="6" cols="12">
-              <div class="footer-widget">
-                <h3 class="ft-title">Address</h3>
-                <div class="content">
-                  <p>39 Mavho Street Bentleigh 3204,VIC</p>
-                </div>
-              </div>
-            </v-col> 
+
             <v-col lg="6" md="6" sm="12" cols="12">
               <div class="footer-widget">
                 <h3 class="ft-title">Email</h3>
@@ -35,6 +27,10 @@
                       <a href="mailto:danielramezani@nexthorizonaustralia.com@domain.com">danielramezani@nexthorizonaustralia.com</a>
                     </p>
                     <p><a href="tel:+61414703015">+61414703015</a></p>
+					        <p>
+                      <a href="mailto:handyhasan@nexthorizonaustralia.com@domain.com">handyhasan@nexthorizonaustralia.com</a>
+                    </p>
+                    <p><a href="tel:+61423549434">+61423549434</a></p>
                   </div>
                 </div>
               </div>
@@ -51,7 +47,7 @@
                   </ul>
                 </div>
               </div>
-            </v-col> 
+            </v-col>
           </v-row>
         </v-container>
       </div>
@@ -65,7 +61,7 @@
 <script>
 
 export default {
- 
+
   data() {
     return {
       linkedIn: [
