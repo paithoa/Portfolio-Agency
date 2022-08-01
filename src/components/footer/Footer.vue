@@ -7,7 +7,6 @@
           <v-col lg="12">
             <div class="footer-top">
               <div class="content">
-                <span>Starting a project!</span>
                 <h4>Contact Us</h4>
               </div>
             </div>
@@ -18,39 +17,24 @@
         <v-container fluid>
           <v-row>
             <!-- Start Single Wedget -->
-            <!-- <v-col lg="3" md="3" sm="6" cols="12">
+      
+            <v-col lg="3" md="3" sm="6" cols="12">
               <div class="footer-widget">
-                <h3 class="ft-title">Present Address</h3>
+                <h3 class="ft-title">Address</h3>
                 <div class="content">
-                  <p>
-                    500 South Main Street <br />
-                    Bishop, CA 93514
-                  </p>
+                  <p>39 Mavho Street Bentleigh 3204,VIC</p>
                 </div>
               </div>
-            </v-col> -->
-            <!-- <v-col lg="3" md="3" sm="6" cols="12">
-              <div class="footer-widget">
-                <h3 class="ft-title">Home Address</h3>
-                <div class="content">
-                  <p>400 South Main Street <br />Bishop, CA 93514</p>
-                </div>
-              </div>
-            </v-col> -->
+            </v-col> 
             <v-col lg="6" md="6" sm="12" cols="12">
               <div class="footer-widget">
                 <h3 class="ft-title">Email</h3>
                 <div class="content">
                   <div class="address">
                     <p>
-                      <a href="mailto:danielramezani@nexthorizonaustralia.com"
-                        >danielramezani@nexthorizonaustralia.com</a
-                      >
+                      <a href="mailto:danielramezani@nexthorizonaustralia.com@domain.com">danielramezani@nexthorizonaustralia.com</a>
                     </p>
-                    <p>
-                      <a href="mailto:	handyhasan@nexthorizonaustralia.com"> handyhasan@nexthorizonaustralia.com</a>
-                    </p>
-                    <!-- <p><a href="tel:0123344556677">+012 3344 556677</a></p> -->
+                    <p><a href="tel:+61414703015">+61414703015</a></p>
                   </div>
                 </div>
               </div>
@@ -67,23 +51,21 @@
                   </ul>
                 </div>
               </div>
-            </v-col>
+            </v-col> 
           </v-row>
         </v-container>
       </div>
     </div>
 
-    <FooterTwo />
+    <!-- <FooterTwo /> -->
   </footer>
   <!--// Footer -->
 </template>
 
 <script>
-import FooterTwo from './FooterTwo';
+
 export default {
-  components: {
-    FooterTwo,
-  },
+ 
   data() {
     return {
       linkedIn: [

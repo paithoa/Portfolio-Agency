@@ -10,14 +10,15 @@
           class="story-style--3 story-content text-left rn-plr--160 section-ptb-xl"
         >
           <div class="content text-left">
-            <h2>
+            <h1 style="font-size:32px">
               Our Services
-            </h2>
-            <p>
-              Website Design & Development
+            </h1>
+            <br>
+            <p style="font-size:24px">
+              · Website Design & Development
             </p>
-            <p>
-          Web Conversion & CRO Strategies
+            <p style="font-size:24px">
+          · Web Conversion & CRO Strategies
             </p>
             <div
               class="story-btn  wow newFadeInUp"
@@ -36,16 +37,12 @@
       <div class="rn-skill-right w-50 d-flex align-items-center">
         <div class="text-left rn-skill rn-plr section-ptb-xl">
             <div class="content text-left">
-            <h2>
            
-Work only
-with specialists
-            </h2>
-            <p>
-              Advanced Custom Web Solutions
+            <p style="font-size:24px">
+              · Advanced Custom Web Solutions
             </p>
-            <p>
-Web API Integration Solutions            </p>
+            <p style="font-size:24px">
+· Web API Integration Solutions            </p>
             <div
               class="story-btn  wow newFadeInUp"
               data-wow-duration="1s"
